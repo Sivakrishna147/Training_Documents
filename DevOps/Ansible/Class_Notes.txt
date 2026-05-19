@@ -129,3 +129,43 @@ Next:
 		
 		
 	- Resource Provisioning using Terraform ::::
+
+
+		
+##########################
+Day - 27 | 19th May 2026
+##########################		
+		- Continue with Ansible Adhoc Commands & Misc. Modules
+		
+		- Ansible Playbooks :::
+		
+			- Used to execute series of modules on the target server 
+			- Playbooks are written using *.yaml scripts 
+			- Playbooks should be reuse
+		
+			- 	Eg.: Install Nginx :
+			
+					- apt install nginx 
+					- Start nginx 
+					
+			- 	Eg.: Install MySQL Database :
+			
+					- Install Pre-requisites
+					- Install MySQL_Server 
+					- Start MySQL_Server
+					- Create Database 
+		
+		- Variables :::
+
+		- When Conditions :::
+
+		- Handlers
+		
+		- Loop
+		
+		- Roles 
+
+Next: 		
+		- Ansible Galaxy 		
+
+	- Resource Provisioning using Terraform ::::
